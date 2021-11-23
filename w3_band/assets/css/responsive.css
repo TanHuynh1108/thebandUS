@@ -1,0 +1,21 @@
+
+/* PC, laptop: width >= 1024px */
+@media  (min-width: 64em) {
+    
+}
+/* Tablet; width >= 740 px and width < 1024px */
+@media  (min-width: 46.25em) and (max-width: 63.9375em) {
+   
+}
+
+
+/* Moblie: width < 740px */
+
+@media  (max-width: 46.875em) {
+    #nav  {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+}
